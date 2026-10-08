@@ -32,9 +32,3 @@ Python 3.10+, Flask, PostgreSQL 11+, Psycopg 3, HTML, CSS e JavaScript.
 2. Execute nesta ordem: database/tables/01_tabelas.sql, database/inserts/01_dados_iniciais.sql, database/views/01_resumo_reservas.sql, database/functions/01_calcular_valor_reserva.sql, database/procedures/01_criar_reserva.sql.
 3. Instale dependências com pip install -r requirements.txt. Copie .env.example para .env e ajuste a conexão.
 4. Execute python src/app.py e acesse http://127.0.0.1:5000.
-
-Não publique o arquivo .env real. A aplicação é um protótipo acadêmico local, sem autenticação ou pagamentos.
-
-## Vídeo explicativo
-
-O enunciado pede vídeo gravado; docs/roteiro-video.md traz o roteiro. O integrante deve gravar e anexar/publicar o vídeo no destino indicado pelo professor.
