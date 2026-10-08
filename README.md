@@ -2,7 +2,7 @@
 
 **Integrante:** Pedro Henrique Dias Carneiro Matos Silva  
 **Disciplina:** Projeto de Banco de Dados  
-**Professor(a):** não informado no enunciado
+**Professor(a):** Anderson Soares Costa
 
 ## Sobre o projeto
 
