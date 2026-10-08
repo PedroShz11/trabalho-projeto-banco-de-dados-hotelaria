@@ -1,0 +1,1 @@
+CREATE OR REPLACE VIEW vw_resumo_reservas AS SELECT r.id_reserva,h.nome AS hospede,h.email,r.data_checkin,r.data_checkout,r.data_checkout-r.data_checkin AS quantidade_noites,r.valor_diaria,(r.data_checkout-r.data_checkin)*r.valor_diaria AS valor_total,r.status FROM reservas r JOIN hospedes h ON h.id_hospede=r.id_hospede;
